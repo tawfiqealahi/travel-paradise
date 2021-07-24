@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* header start */
+
 *{
     font-family: Poppins, sans-serif;;
 }
@@ -10,7 +13,7 @@ p{
     font-size: 18px;
     font-weight: 500;
 }
-
+/* banner part start */
 .banner{
     background-image: url(../assets/Decore.svg);
     background-repeat: no-repeat;
@@ -18,6 +21,10 @@ p{
     width: 100%;
     height: 100vh;
 }
+/* banner part end */
+
+/* navbar part start */
+
 .nav-item{
     padding: 10px 20px;
 }
@@ -25,6 +32,11 @@ p{
     font-weight: 500;
     font-size: 20px;
 }
+
+/* navbar part end */
+
+/* hero content start */
+
 .enjoy-design{
     position: relative;
 }
@@ -44,4 +56,6 @@ p{
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+/* hero content end */
 
+/* header end */
